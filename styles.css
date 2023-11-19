@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign-up > img {
+    background-color: grey;
+    width: 320px;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+}
+
+.sign-up-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cards {
+    display: flex;
+}
+
+.info-card > img {
+    display: flex;
+    border: 2px blue solid;
+    border-radius: 10%;
+    width: 96px;
+    height: 96px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    align-self: center;
+}
