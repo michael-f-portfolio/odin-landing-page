@@ -1,0 +1,135 @@
+body {
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* max-width: 800px; */
+    margin: auto 600px;
+    flex-grow: 1;
+}
+
+.content-container > * {
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 0;
+    width: 90px;
+    height: 28px;
+    border-radius: 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 270px; */
+}
+
+.sign-up-subtext {
+    border: 2px red solid;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+
+.sign-up > img {
+    background-color: grey;
+    width: 320px;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+    margin-left: 100px;
+}
+
+.sign-up-description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sign-up-description > h1 {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cards {
+    display: flex;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 140px;
+    text-align: center;
+}
+
+.info-card > img {
+    display: flex;
+    border: 2px blue solid;
+    border-radius: 10%;
+    width: 96px;
+    height: 96px;
+}
+
+.quote {
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 300px; */
+}
+
+.quote > .content {
+    max-width: 690px;
+    text-align: left;
+    font-size: 40px;
+}
+
+.quote > .author {
+    border: 2px blue solid;
+    /* align-self: flex-end; */
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 400px;
+}
+
+.secondary-sign-up {
+    border: 2px red solid;
+    display: flex;
+    justify-content: center;
+    padding: 25px 80px;
+}
+
+.secondary-sign-up > button {
+    align-self: center;
+    margin-left: 25px;
+}
+
+.secondary-sign-up > .description > h3 {
+    margin: 0;
+}
+
+.footer {
+    align-self: center;
+    margin: 0;
+}
